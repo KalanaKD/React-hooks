@@ -4,7 +4,7 @@ function NewFollowerAlert() {
   const [followers, setFollowers] = useState(0);
 
   useEffect(() => {
-    alert(`🎉 You have ${followers} followers now!`);
+    alert(`You have ${followers} followers now!`);
   }, [followers]); // Runs when followers changes
 
   return (
